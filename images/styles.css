@@ -9,22 +9,23 @@ nav{
     text-align: center;
     align-items: center;
     justify-content: center;
-    gap: 400px;
+    gap: 200px;
     background-color: #093459;
     height: 7vw;
 }
 nav h4{
-    font-size: 20px;
+    font-size: 1rem;
     color: white;
 }
 .us ul{
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
     list-style: none;
+    font-size: 0.7rem;
 }
 .us a{
     text-decoration: none;
-    gap: 50;
+    /* gap: 50; */
     color: white;
 }
 header{
@@ -237,15 +238,21 @@ header{
     }
     .tap p{
         font-size: 1.5rem;
+        width: 100%;
     }
     .tap h4{
         font-size: 1.5rem;
     }
     .main p{
-        font-size: 1.5rem;
+        padding: 1rem;
+        /* font-size: 1.5rem; */
+    }
+    .meee img{
+        width: 100%;
     }
     .meet{
         flex-direction: column;
+        padding: 1rem;
     }
     .meet p{
         font-size: 1.5rem;
@@ -258,6 +265,12 @@ header{
         font-size: 1.5rem;
         padding-bottom: 30px;
     }
+    .food img{
+        width: 350px;
+    }
+    .ball{
+        padding: 1rem;
+    }
     .fit{
         flex-direction: column;
     }
@@ -265,7 +278,27 @@ header{
         font-size: 1.5rem;
         padding-bottom: 30px;
     }
-    .container{
+    .fit img{
+        width: 300px;
         
+    }
+    header{
+        width: 100%;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .box{
+        flex-direction: column;
+        width: 100%;
+    }
+    .us{
+        display: none;
+    }
+    .jbl p{
+        font-size: 1rem;
+    }
+    .contact-section{
+        flex-direction: column;
     }
 }
