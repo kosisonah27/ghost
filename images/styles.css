@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 400px;
+    background-color: #093459;
+    height: 7vw;
+}
+nav h4{
+    font-size: 20px;
+    color: white;
+}
+.us ul{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+.us a{
+    text-decoration: none;
+    gap: 50;
+    color: white;
+}
+header{
+    text-align: center;
+    align-items: center;
+    background-image: url(./meeting.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.get{
+    padding-top: 300px;
+    padding-bottom: 200px;
+}
+.get h2{
+    font-size: 35px;
+    color: white;
+}
+.soon{
+    margin-top: 40px;
+}
+.soon a{
+    text-decoration: none;
+    color: white;
+    background-color: #093459;
+    padding: 10px 30px;
+    border-radius: 7px;
+}
+.main{
+    text-align: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.main h3{
+    font-size: 25px;
+    color: #616161;
+}
+.main p{
+    margin-top: 30px;
+    font-size: 14px;
+    color: #616161;
+    margin-bottom: 30px;
+}
+.tap{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.tap h4{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #222222;
+}
+.tap p{
+    font-size: 14px;
+    color: #616161;
+    margin-bottom: 100px;
+}
+.left{
+    margin-right: 50px;
+}
+.right{
+    margin-left: 50px;
+}
+.meet{
+   display: flex;
+   justify-content: center;
+   margin-bottom: 100px;
+   border-top: #093459 solid 0.5px;
+    padding-top: 6rem;
+}
+.meet img{
+    width: 500px;
+    height: 300px;
+}
+.meet h2{
+    color: #616161;
+    margin-bottom: 30px;
+}
+.meet p{
+    color: #616161;
+}
+.food{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    border-top: #093459 solid 0.5px;
+    padding-top: 6rem;
+}
+.food img{
+    width: 500px;
+    height: 300px;
+}
+.ball{
+    margin-left: 50px;
+}
+.ball h2{
+    margin-bottom: 30px;
+    color: #616161;
+}
+.ball p{
+    margin-top: 30px;
+    color: #616161;
+}
+.fit{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    border-top: #093459 solid 0.5px;
+    padding-top: 6rem;
+}
+.fit img{
+    width: 500px;
+    height: 300px;
+    margin-left: 30px;
+}
+.fit p{
+    margin-top: 30px;
+    color: #616161;
+}
+.fit h2{
+    color: #616161;
+}
+.wit{
+    text-align: center;
+    align-items: center;
+    color: #093459;
+    border-top: #093459 solid 0.3px;
+    padding-top: 6rem;
+}
+.unn{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 1rem;
+}
+.unn p{
+    color: aqua;
+}
+.unn i{
+    font-size: 1.5rem;
+    color: aqua;
+}
+ .container {
+        width: 90%;
+        max-width: 1100px;
+        margin: 40px auto;
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .box {
+        background: #eeeeee;
+        padding: 20px;
+        width: 32%;
+        border-radius: 5px;
+    }
+
+    .title {
+        font-weight: bold;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .profile {
+        margin-top: 15px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .profile img {
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        background: #ccc;
+    }
+
+    .stars {
+        color: orange;
+        font-size: 14px;
+    }
+
+    .contact-section {
+        margin-top: 40px;
+        background: #0d2b57;
+        color: white;
+        padding: 25px;
+        display: flex;
+        /* justify-content: space-between; */
+        align-items: center;
+        justify-content: center;
+        gap: 5rem;
+    }
+
+    .contact-section button {
+        background: #1e6be3;
+        color: white;
+        border: none;
+        padding: 12px 25px;
+        border-radius: 3px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+@media(max-width:500px) {
+    .tap{
+        flex-direction: column;
+    }
+    .tap p{
+        font-size: 1.5rem;
+    }
+    .tap h4{
+        font-size: 1.5rem;
+    }
+    .main p{
+        font-size: 1.5rem;
+    }
+    .meet{
+        flex-direction: column;
+    }
+    .meet p{
+        font-size: 1.5rem;
+        padding-bottom: 30px;
+    }
+    .food{
+        flex-direction: column-reverse;
+    }
+    .food p{
+        font-size: 1.5rem;
+        padding-bottom: 30px;
+    }
+    .fit{
+        flex-direction: column;
+    }
+    .fit p{
+        font-size: 1.5rem;
+        padding-bottom: 30px;
+    }
+    .container{
+        
+    }
+}
